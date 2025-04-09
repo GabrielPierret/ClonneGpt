@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+pre {
+    @apply py-4 font-mono overflow-x-auto;
+}
+
+
+:not(pre) > code {
+    @apply font-mono text-fuchsia-400 italic font-bold;
+}
+
+#gpt-output > div:nth-child(even) .message {
+    @apply font-mono text-fuchsia-400 italic font-bold;
+}
